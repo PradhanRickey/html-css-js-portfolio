@@ -424,6 +424,48 @@ article .icon {
     height: 2.5 rem;
 }
 
+.contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-inputs {
+  width: 400px;
+  height: 50px;
+  border: solid 1px #000000;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+}
+
+.contact-left textarea {
+  height: 140px;
+  border-radius: 20px;
+  padding-top: 25px;
+}
+
+.contact-left button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  gap:10px;
+  border-radius: 50px;
+  color:white;
+  background-color: black;
+  cursor: pointer;
+}
+
 /*FOOTER SECTION*/
 
 footer{
